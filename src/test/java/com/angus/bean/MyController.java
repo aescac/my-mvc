@@ -17,4 +17,8 @@ public class MyController {
     public void test() {
         log.info(doodleService.test());
     }
+
+    public void helloForAspect() {
+        log.info("Hello Aspectj");
+    }
 }

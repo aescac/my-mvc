@@ -16,6 +16,6 @@ public class IocTest {
         new Ioc().doIoc();
         MyController controller = (MyController) beanContainer.getBean(MyController.class);
         controller.hello();
-        controller.test();
+        controller.helloForAspect();
     }
 }
